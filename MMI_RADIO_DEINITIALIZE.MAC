@@ -1,0 +1,21 @@
+## Power Control: 5 watts - Mode: USB - Pre-amp: IPO
+RADCMD MD02;PC005;PA00;
+
+## AGC: Auto
+RADCMD GT04;
+
+## SSB Display Shift: +1500hz
+RADCMD EX064+1500;
+DELAY 10;
+
+## SSB Freq Shift: +1500
+RADCMD EX065+1500;
+DELAY 10;
+
+## SSB TX BPF: 200-2800hz
+RADCMD EX1122;
+DELAY 10;
+
+## Freq 14.300mhz - Width: 3200hz
+RADCMD FA014300000;SH021;
+

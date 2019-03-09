@@ -1,0 +1,26 @@
+## Enables Debug
+DISABLE TRACEMMIRADIO
+
+## Power Control: 100 watts - Mode: DATA-USB - Pre-amp: IPO
+RADCMD MD0C;PC100;PA00;
+
+## AUTO Notch: Off - Manual Notch: Off - Noise Blanker: Off
+RADCMD BC00;BP00000;NB00;
+
+## Width: 3000 Hz - Noise Reduction: Off  - RF Attenuator: Off
+RADCMD SH017;NR00;RA00;
+
+## Moni: On, Level 35
+RADCMD ML01;ML1035;
+
+## AGC: Fast
+RADCMD GT01;
+
+## SSB Display Shift: +1620hz
+RADCMD EX064+1620;
+
+## SSB Freq Shift: +1620
+RADCMD EX065+1620;
+
+## SSB TX BPF: 200-2800
+RADCMD EX1122;
